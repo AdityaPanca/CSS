@@ -1,0 +1,110 @@
+.container{
+    width: 960px;
+    margin: auto;
+    background-color: white;
+}
+body{
+    background-color: #eaeaea;
+    background-image: url(image/gambar2.png);
+    font: 16px/28px arial, sans-serif;
+}
+
+.header{
+    margin-top: -20px;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+ul{
+    margin-top: -15px;
+    list-style-type:none;
+    padding-left: 0%;
+}
+.header ul li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.header a{
+    text-decoration: none;
+    color: red;
+}
+.header a:hover{
+    background-color: blue;
+    color: white;
+}
+
+.hero {
+    margin-top: -15px;
+    height: 320px;
+    background-image: url(image/gambar1.jpg);
+    background-size: cover;
+    background-position: 0 -180px;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+}
+.main{
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.main .penulis{
+    font-size: 11px;
+    margin-top: -15px;
+
+}
+.main p{
+    margin-bottom: 20px;
+    font-size: 14px ;
+}
+
+.main .paragraf{
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+
+}
+
+.footer .copy{
+    background-color: black;
+    text-align: center;
+    font-size: 12px;
+    color: #eaeaea;
+}
+
+.sidebar img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 10px;
+}
+
+.sidebar{
+    width: 300px;
+    float: left;
+    padding: 20px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}

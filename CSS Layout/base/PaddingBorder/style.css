@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    
+}
+.satu{
+    background-color: coral;
+    margin: 20px auto;
+    padding: 10px;
+    border: 3px solid orchid;
+    overflow: scroll;
+}
+.dua{
+    background-color: lightblue;
+    margin: 20px auto;
+    padding: 50px;
+    border: 3px double blue;
+    overflow: scroll;
+}
